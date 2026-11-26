@@ -1,5 +1,9 @@
 # Conformal prediction and the fundamental diagram in freeway speed forecasting
 
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue)](requirements.txt)
+[![Paper PDF](https://img.shields.io/badge/paper-PDF-orange)](The_Fundamental_Diagram_Localizes_Conformal_Prediction_Failure_in_Freeway_Speed_Forecasting.pdf)
+[![Data: Caltrans PeMS](https://img.shields.io/badge/data-Caltrans%20PeMS-lightgrey)](#data)
+
 This is the code, results and paper from a student project. I wanted to learn conformal
 prediction properly, so I took one concrete question and tried to answer it carefully:
 
@@ -9,6 +13,15 @@ prediction properly, so I took one concrete question and tried to answer it care
 On two Caltrans PeMS networks it does not. Coverage is 0.90 to 0.92 overall but 0.28 to 0.37
 in congestion. This repo measures that gap, uses each sensor's fundamental diagram (FD) to
 show where it opens up, and compares several standard ways of closing it.
+
+<p align="center">
+  <img src="figures_v2/example_episode.png" width="95%" alt="One congestion episode at a District 4 sensor, split conformal against Mondrian conformal on the FD state">
+</p>
+
+*One congestion episode at a District 4 sensor (test period, 60-minute-ahead forecasts). With
+one pad for every point, the interval stays narrow and the actual speed falls outside it for
+most of the congested period. Calibrating a separate pad for each traffic state widens the
+interval when the forecast is made in congestion.*
 
 None of the methods here are new. The aim was to understand them and to check them honestly
 on real traffic data. The section "What is and is not new" says where each idea comes from.
@@ -77,13 +90,34 @@ roughly where the road reaches capacity, and falls after that as traffic jams.
 I estimate o_c for each sensor from the training data and label every forecast origin as free
 flow, transition or congested from its occupancy relative to o_c. The label only uses what is
 known when the forecast is made, which matters for a fair evaluation (more on that below).
-`figures_v2/fd_scatter.png` shows one sensor.
+
+<p align="center">
+  <img src="figures_v2/fd_scatter.png" width="65%" alt="Flow against occupancy for one District 4 sensor, coloured by FD state">
+</p>
+
+*Flow against occupancy for one District 4 sensor (training data), coloured by FD state. The
+diamond marks the estimated critical occupancy.*
 
 ## Main results
 
 60-minute horizon, nominal coverage 0.90. Width is the mean interval width in mph. Winkler is
 the interval score (lower is better). "Congested" is the FD-congested state, which is 3.9% of
 test points on District 4 and 4.3% on District 8.
+
+<p align="center">
+  <img src="figures_v2/coverage_by_state.png" width="95%" alt="Coverage in each FD state for split conformal and Mondrian conformal, both networks">
+</p>
+
+*Coverage in each FD state. A single pad over-covers free flow and under-covers the other
+two states. One pad per state brings all three close to 0.90.*
+
+<p align="center">
+  <img src="figures_v2/coverage_vs_occupancy.png" width="65%" alt="Coverage of split conformal against normalized occupancy">
+</p>
+
+*Coverage of the single-pad interval against occupancy divided by each sensor's critical
+occupancy, pooled over sensors. Coverage drops as occupancy passes the critical point (dotted
+line).*
 
 District 4 (307 sensors, 1,039,809 test points)
 
@@ -126,7 +160,11 @@ What I take from these tables:
    skill left once traffic has broken down.
 5. Congested residuals on District 4 have two peaks, near -6 mph and near +15 mph. The first
    is congestion that persists, the second is a recovery the model did not predict
-   (`figures_v2/congested_residuals.png`).
+   (figure below).
+
+<p align="center">
+  <img src="figures_v2/congested_residuals.png" width="65%" alt="Density of congested-state residuals on both networks">
+</p>
 
 So the FD is useful here as a way to check an uncertainty method, more than as the thing to
 calibrate on.
@@ -153,6 +191,12 @@ on other data. These runs use STID (Shao et al., 2022), a stronger model than th
 METR-LA and PEMS-BAY. Those two datasets have speed only, so states there are speed regimes at
 the forecast origin (free flow at 55 mph or more, congested below 25 mph), not FD states.
 Tables are in `results_summary/tables.md`.
+
+<p align="center">
+  <img src="figures_summary/winkler_by_method.png" width="100%" alt="Winkler score by method on four datasets with two forecasters">
+</p>
+
+*Winkler score (lower is better) for each method on four datasets, with the GRU and with STID.*
 
 - Split conformal still fails in congestion with the stronger model. Congested coverage is
   0.11 to 0.65 across the eight dataset and forecaster pairs.
@@ -187,6 +231,7 @@ code/
   alignment_sensitivity.py  the same test over thresholds, bin counts and sensor subsets
   joint_mixture.py          joint FD x speed states and the mixture correction
   make_figures.py           figures in figures_v2/
+  make_readme_figures.py    the example episode and coverage-by-state figures
   (the remaining scripts are the later checks: train_stid.py, train_gru_any.py,
    speed_regime_study.py, strong_forecaster_study.py, undercoverage_law.py, fd_informed*.py,
    pairs.py and the scripts that write results_audit/ and figures_audit/)
@@ -218,6 +263,7 @@ python code/alignment.py > results_v2/alignment.txt
 python code/alignment_sensitivity.py > results_v2/alignment_sensitivity.txt
 python code/joint_mixture.py > results_v2/joint_mixture.txt
 python code/make_figures.py
+python code/make_readme_figures.py
 ```
 
 The analysis is deterministic. Rerunning it on the files in `predictions_v2/` gives output
