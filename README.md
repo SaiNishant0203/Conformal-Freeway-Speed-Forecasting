@@ -1,11 +1,13 @@
 # Conformal prediction and the fundamental diagram in freeway speed forecasting
 
+[![ISMT 2026: accepted](https://img.shields.io/badge/ISMT%202026-accepted-brightgreen)](#the-paper)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue)](requirements.txt)
 [![Paper PDF](https://img.shields.io/badge/paper-PDF-orange)](The_Fundamental_Diagram_Localizes_Conformal_Prediction_Failure_in_Freeway_Speed_Forecasting.pdf)
 [![Data: Caltrans PeMS](https://img.shields.io/badge/data-Caltrans%20PeMS-lightgrey)](#data)
 
-This is the code, results and paper from a student project. I wanted to learn conformal
-prediction properly, so I took one concrete question and tried to answer it carefully:
+This is the code, results and paper from a student project. The paper was accepted at
+ISMT 2026. I wanted to learn conformal prediction properly, so I took one concrete question
+and tried to answer it carefully:
 
 > Split conformal prediction promises 90% coverage on average. Does a 90% interval around a
 > 60-minute speed forecast still cover 90% of the time when traffic is congested?
@@ -29,7 +31,7 @@ on real traffic data. The section "What is and is not new" says where each idea 
 ## The paper
 
 > S. N. Pratapani and S. R. Patlolla, "The Fundamental Diagram Localizes Conformal Prediction
-> Failure in Freeway Speed Forecasting." Submitted to the 8th International Symposium on
+> Failure in Freeway Speed Forecasting." Accepted at the 8th International Symposium on
 > Multimodal Transportation (ISMT 2026), Singapore.
 
 The PDF in this repo is the version that was submitted in September 2026. The forecaster in
