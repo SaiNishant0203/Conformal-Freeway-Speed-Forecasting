@@ -1,0 +1,9 @@
+
+==================== pems08: residual-quantile conformal, full feature set ====================
+method           cov  width   Wink |  cov F cov T cov C |   Wk F  Wk T  Wk C | worstFD worstSp
+----------------------------------------------------------------------------------------------
+rq pooled      0.900   6.49  11.09 |  0.904 0.899 0.841 |    9.0  16.8  37.5 |   0.841   0.833
+rq FD-Mondrian 0.901   6.58  11.06 |  0.903 0.891 0.894 |    9.0  16.8  36.8 |   0.891   0.863
+per-state corrections (mph): [0.02 0.01 1.27]  pooled: 0.03
+MAE of GRU forecast by FD state:      [1.54 3.38 9.24]
+MAE of interval midpoint by FD state: [1.48 3.07 8.62]

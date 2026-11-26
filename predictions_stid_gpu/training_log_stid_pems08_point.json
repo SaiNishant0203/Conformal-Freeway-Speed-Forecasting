@@ -1,0 +1,276 @@
+{
+ "settings": {
+  "net": "pems08",
+  "out": "predictions_stid_gpu",
+  "H": 6,
+  "kind": "point",
+  "epochs": 60,
+  "patience": 10,
+  "batch": 32,
+  "lr": 0.002,
+  "wd": 0.0001,
+  "seed": 0,
+  "threads": 4,
+  "milestones": "30,50",
+  "device": "xpu",
+  "model": "STID",
+  "history": 12,
+  "emb": 32,
+  "layers": 3,
+  "dropout": 0.15,
+  "optimizer": "Adam",
+  "lr_schedule": "halved at epochs [30, 50]",
+  "point_loss": "masked MAE",
+  "quantile_loss": "masked pinball (0.05, 0.95)",
+  "inputs": 3,
+  "torch": "2.14.1+xpu"
+ },
+ "epochs": [
+  {
+   "kind": "point",
+   "epoch": 1,
+   "val_loss": 0.20870741202829043,
+   "seconds": 6.4
+  },
+  {
+   "kind": "point",
+   "epoch": 2,
+   "val_loss": 0.20426613692086396,
+   "seconds": 4.2
+  },
+  {
+   "kind": "point",
+   "epoch": 3,
+   "val_loss": 0.20321024603703441,
+   "seconds": 4.1
+  },
+  {
+   "kind": "point",
+   "epoch": 4,
+   "val_loss": 0.19954268036046727,
+   "seconds": 4.3
+  },
+  {
+   "kind": "point",
+   "epoch": 5,
+   "val_loss": 0.1963215212430718,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 6,
+   "val_loss": 0.19460087023278913,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 7,
+   "val_loss": 0.19342084177513194,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 8,
+   "val_loss": 0.19908736326864787,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 9,
+   "val_loss": 0.1943772537172898,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 10,
+   "val_loss": 0.191948278562751,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 11,
+   "val_loss": 0.1890152309552517,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 12,
+   "val_loss": 0.19216276600915178,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 13,
+   "val_loss": 0.1895143283682377,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 14,
+   "val_loss": 0.19061037027090091,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 15,
+   "val_loss": 0.18867872169816974,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 16,
+   "val_loss": 0.1873963154247161,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 17,
+   "val_loss": 0.1858286052719663,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 18,
+   "val_loss": 0.1864612451524071,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 19,
+   "val_loss": 0.18561305182209425,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 20,
+   "val_loss": 0.18525963730198775,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 21,
+   "val_loss": 0.18547658711310083,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 22,
+   "val_loss": 0.1880072007507058,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 23,
+   "val_loss": 0.18669790374575987,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 24,
+   "val_loss": 0.18599918147985564,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 25,
+   "val_loss": 0.1841333468699433,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 26,
+   "val_loss": 0.18664172638197238,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 27,
+   "val_loss": 0.18625833537259134,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 28,
+   "val_loss": 0.18349539601947523,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 29,
+   "val_loss": 0.18481423032411787,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 30,
+   "val_loss": 0.18447188957899557,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 31,
+   "val_loss": 0.17953819881022032,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 32,
+   "val_loss": 0.1803260903412443,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 33,
+   "val_loss": 0.18179277761949766,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 34,
+   "val_loss": 0.18103097641473614,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 35,
+   "val_loss": 0.18156613316995646,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 36,
+   "val_loss": 0.18154588827983337,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 37,
+   "val_loss": 0.17989065398633425,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 38,
+   "val_loss": 0.1810047555676584,
+   "seconds": 4.4
+  },
+  {
+   "kind": "point",
+   "epoch": 39,
+   "val_loss": 0.1799370108518391,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 40,
+   "val_loss": 0.17999260181806334,
+   "seconds": 4.5
+  },
+  {
+   "kind": "point",
+   "epoch": 41,
+   "val_loss": 0.18027509624411522,
+   "seconds": 4.5
+  }
+ ]
+}

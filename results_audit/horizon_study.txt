@@ -1,0 +1,60 @@
+
+=== PeMS04 STID, 15 min: MAE 1.30 (1.05 / 4.59 / 4.53)
+  split conformal coverage free/trans/cong 0.939 / 0.518 / 0.595   rule of thumb 0.932 / 0.482 / 0.511
+  CQR coverage 0.901 / 0.891 / 0.913 (Winkler 8.32);  per regime 0.902 / 0.895 / 0.898 (8.32)
+  misses stay correlated for 2 steps; delay-to-memory ratio 1.50; autocorrelation at the feedback delay 0.27
+  absolute-residual score, Winkler: split 12.73, Mondrian 10.98, ACI delayed 11.05 (gamma 0.005), ACI with one-step feedback 10.17 (gamma 0.02)
+
+=== PeMS04 STID, 30 min: MAE 1.57 (1.24 / 5.60 / 7.01)
+  split conformal coverage free/trans/cong 0.939 / 0.507 / 0.515   rule of thumb 0.929 / 0.470 / 0.409
+  CQR coverage 0.898 / 0.887 / 0.916 (Winkler 10.23);  per regime 0.897 / 0.896 / 0.898 (10.23)
+  misses stay correlated for 4 steps; delay-to-memory ratio 1.50; autocorrelation at the feedback delay 0.28
+  absolute-residual score, Winkler: split 16.51, Mondrian 14.06, ACI delayed 14.78 (gamma 0.002), ACI with one-step feedback 11.74 (gamma 0.02)
+
+=== PeMS04 STID, 60 min: MAE 1.88 (1.50 / 6.26 / 9.01)
+  split conformal coverage free/trans/cong 0.936 / 0.527 / 0.463   rule of thumb 0.925 / 0.499 / 0.372
+  CQR coverage 0.896 / 0.864 / 0.874 (Winkler 12.54);  per regime 0.893 / 0.892 / 0.895 (12.52)
+  misses stay correlated for 6 steps; delay-to-memory ratio 2.00; autocorrelation at the feedback delay 0.25
+  absolute-residual score, Winkler: split 20.41, Mondrian 17.61, ACI delayed 18.75 (gamma 0.002), ACI with one-step feedback 12.45 (gamma 0.05)
+
+=== PeMS08 STID, 15 min: MAE 1.03 (0.82 / 4.19 / 5.00)
+  split conformal coverage free/trans/cong 0.927 / 0.487 / 0.479   rule of thumb 0.942 / 0.437 / 0.381
+  CQR coverage 0.900 / 0.871 / 0.902 (Winkler 6.64);  per regime 0.898 / 0.897 / 0.890 (6.64)
+  misses stay correlated for 2 steps; delay-to-memory ratio 1.50; autocorrelation at the feedback delay 0.27
+  absolute-residual score, Winkler: split 10.98, Mondrian 9.49, ACI delayed 8.79 (gamma 0.005), ACI with one-step feedback 8.09 (gamma 0.02)
+
+=== PeMS08 STID, 30 min: MAE 1.31 (0.99 / 5.76 / 9.52)
+  split conformal coverage free/trans/cong 0.929 / 0.446 / 0.336   rule of thumb 0.935 / 0.413 / 0.260
+  CQR coverage 0.897 / 0.888 / 0.915 (Winkler 8.20);  per regime 0.897 / 0.890 / 0.906 (8.19)
+  misses stay correlated for 4 steps; delay-to-memory ratio 1.50; autocorrelation at the feedback delay 0.30
+  absolute-residual score, Winkler: split 14.93, Mondrian 12.33, ACI delayed 12.41 (gamma 0.002), ACI with one-step feedback 9.30 (gamma 0.02)
+
+=== PeMS08 STID, 60 min: MAE 1.56 (1.20 / 6.26 / 14.31)
+  split conformal coverage free/trans/cong 0.927 / 0.465 / 0.272   rule of thumb 0.923 / 0.429 / 0.229
+  CQR coverage 0.901 / 0.827 / 0.789 (Winkler 10.10);  per regime 0.897 / 0.886 / 0.912 (10.03)
+  misses stay correlated for 7 steps; delay-to-memory ratio 1.71; autocorrelation at the feedback delay 0.28
+  absolute-residual score, Winkler: split 18.29, Mondrian 15.25, ACI delayed 16.11 (gamma 0.002), ACI with one-step feedback 9.95 (gamma 0.02)
+
+=== METR-LA STID, 15 min: MAE 2.81 (2.00 / 5.56 / 5.79)
+  split conformal coverage free/trans/cong 0.944 / 0.698 / 0.719   rule of thumb 0.958 / 0.675 / 0.651
+  CQR coverage 0.902 / 0.903 / 0.914 (Winkler 17.81);  per regime 0.903 / 0.906 / 0.902 (17.81)
+  misses stay correlated for 1 steps; delay-to-memory ratio 3.00; autocorrelation at the feedback delay 0.24
+  absolute-residual score, Winkler: split 27.45, Mondrian 24.17, ACI delayed 25.70 (gamma 0.005), ACI with one-step feedback 23.67 (gamma 0.02)
+
+=== METR-LA STID, 30 min: MAE 3.20 (2.27 / 5.96 / 7.69)
+  split conformal coverage free/trans/cong 0.942 / 0.726 / 0.671   rule of thumb 0.956 / 0.690 / 0.584
+  CQR coverage 0.904 / 0.903 / 0.913 (Winkler 20.01);  per regime 0.904 / 0.905 / 0.898 (20.01)
+  misses stay correlated for 2 steps; delay-to-memory ratio 3.00; autocorrelation at the feedback delay 0.22
+  absolute-residual score, Winkler: split 33.40, Mondrian 29.48, ACI delayed 31.34 (gamma 0.002), ACI with one-step feedback 24.98 (gamma 0.05)
+
+=== METR-LA STID, 60 min: MAE 3.62 (2.66 / 6.07 / 9.64)
+  split conformal coverage free/trans/cong 0.937 / 0.761 / 0.648   rule of thumb 0.947 / 0.726 / 0.559
+  CQR coverage 0.911 / 0.896 / 0.885 (Winkler 22.12);  per regime 0.909 / 0.904 / 0.901 (22.11)
+  misses stay correlated for 4 steps; delay-to-memory ratio 3.00; autocorrelation at the feedback delay 0.17
+  absolute-residual score, Winkler: split 39.81, Mondrian 35.49, ACI delayed 37.03 (gamma 0.002), ACI with one-step feedback 25.61 (gamma 0.05)
+
+=== PEMS-BAY STID, 60 min: MAE 2.05 (1.54 / 6.06 / 9.38)
+  split conformal coverage free/trans/cong 0.942 / 0.535 / 0.427   rule of thumb 0.936 / 0.510 / 0.377
+  CQR coverage 0.892 / 0.891 / 0.899 (Winkler 12.93);  per regime 0.891 / 0.897 / 0.894 (12.93)
+  misses stay correlated for 9 steps; delay-to-memory ratio 1.33; autocorrelation at the feedback delay 0.31
+  absolute-residual score, Winkler: split 22.38, Mondrian 18.62, ACI delayed 21.41 (gamma 0.002), ACI with one-step feedback 13.36 (gamma 0.05)

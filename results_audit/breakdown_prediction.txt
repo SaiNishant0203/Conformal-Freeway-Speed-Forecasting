@@ -1,0 +1,30 @@
+
+==================== pems04 ====================
+target features               forecast | base rate    AUC avg prec  caught at 5% false alarms
+onset  A speed                      no |     0.056  0.918    0.489                      0.631
+onset  A speed                     yes |     0.056  0.929    0.567                      0.692
+onset  B + occupancy, flow          no |     0.056  0.927    0.526                      0.669
+onset  B + occupancy, flow         yes |     0.056  0.934    0.605                      0.708
+onset  C + FD                       no |     0.056  0.931    0.522                      0.682
+onset  C + FD                      yes |     0.056  0.934    0.587                      0.705
+any    A speed                      no |     0.115  0.958    0.842                      0.812
+any    A speed                     yes |     0.115  0.965    0.863                      0.849
+any    B + occupancy, flow          no |     0.115  0.962    0.853                      0.826
+any    B + occupancy, flow         yes |     0.115  0.967    0.873                      0.854
+any    C + FD                       no |     0.115  0.965    0.852                      0.838
+any    C + FD                      yes |     0.115  0.968    0.873                      0.857
+
+==================== pems08 ====================
+target features               forecast | base rate    AUC avg prec  caught at 5% false alarms
+onset  A speed                      no |     0.047  0.943    0.557                      0.731
+onset  A speed                     yes |     0.047  0.950    0.640                      0.772
+onset  B + occupancy, flow          no |     0.047  0.948    0.589                      0.761
+onset  B + occupancy, flow         yes |     0.047  0.953    0.627                      0.789
+onset  C + FD                       no |     0.047  0.948    0.582                      0.764
+onset  C + FD                      yes |     0.047  0.955    0.643                      0.798
+any    A speed                      no |     0.101  0.974    0.872                      0.884
+any    A speed                     yes |     0.101  0.976    0.889                      0.896
+any    B + occupancy, flow          no |     0.101  0.976    0.885                      0.893
+any    B + occupancy, flow         yes |     0.101  0.977    0.894                      0.902
+any    C + FD                       no |     0.101  0.977    0.891                      0.899
+any    C + FD                      yes |     0.101  0.978    0.891                      0.905

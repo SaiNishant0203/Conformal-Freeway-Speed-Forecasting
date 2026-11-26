@@ -1,0 +1,67 @@
+{
+ "settings": {
+  "net": "pems_bay",
+  "out": "predictions_gru_gpu",
+  "H": 12,
+  "epochs": 12,
+  "patience": 2,
+  "min_rel_improve": 0.005,
+  "batch_steps": 40,
+  "lr": 0.001,
+  "seed": 0,
+  "device": "xpu",
+  "model": "GRU",
+  "hidden": 64,
+  "history": 12
+ },
+ "epochs": [
+  {
+   "kind": "point",
+   "epoch": 1,
+   "val_loss": 0.3664790652299179,
+   "seconds": 168.8
+  },
+  {
+   "kind": "point",
+   "epoch": 2,
+   "val_loss": 0.35640640633533965,
+   "seconds": 224.1
+  },
+  {
+   "kind": "point",
+   "epoch": 3,
+   "val_loss": 0.3538044911053069,
+   "seconds": 252.6
+  },
+  {
+   "kind": "point",
+   "epoch": 4,
+   "val_loss": 0.3477541548892413,
+   "seconds": 259.4
+  },
+  {
+   "kind": "point",
+   "epoch": 5,
+   "val_loss": 0.3493683323678705,
+   "seconds": 269.3
+  },
+  {
+   "kind": "point",
+   "epoch": 6,
+   "val_loss": 0.34144030083929877,
+   "seconds": 247.9
+  },
+  {
+   "kind": "point",
+   "epoch": 7,
+   "val_loss": 0.34554553411241,
+   "seconds": 251.6
+  },
+  {
+   "kind": "point",
+   "epoch": 8,
+   "val_loss": 0.3488463385630462,
+   "seconds": 228.2
+  }
+ ]
+}

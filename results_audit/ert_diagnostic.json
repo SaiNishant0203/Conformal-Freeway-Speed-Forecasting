@@ -1,0 +1,282 @@
+[
+ {
+  "net": "pems04",
+  "model": "gru",
+  "method": "split conformal",
+  "coverage": 0.922385,
+  "gap": 0.17892901854571472
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "method": "Mondrian on regime",
+  "coverage": 0.917985,
+  "gap": 0.13499635128537923
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "method": "CQR",
+  "coverage": 0.9110475,
+  "gap": 0.1061267611442972
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "method": "CQR per regime",
+  "coverage": 0.91091,
+  "gap": 0.10527318699717839
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.91026,
+  "gap": 0.10570478056858922
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "method": "split conformal",
+  "coverage": 0.91205,
+  "gap": 0.16358412449399404
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "method": "Mondrian on regime",
+  "coverage": 0.9047675,
+  "gap": 0.13558384256894288
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "method": "CQR",
+  "coverage": 0.8954175,
+  "gap": 0.0701360240210112
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "method": "CQR per regime",
+  "coverage": 0.89427,
+  "gap": 0.06973677800798772
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.89212,
+  "gap": 0.07046493631953067
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "method": "split conformal",
+  "coverage": 0.9008219881839199,
+  "gap": 0.20609443216997553
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "method": "Mondrian on regime",
+  "coverage": 0.9061617004880554,
+  "gap": 0.1699123085727805
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "method": "CQR",
+  "coverage": 0.9042833290521449,
+  "gap": 0.14770575346211307
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "method": "CQR per regime",
+  "coverage": 0.9044824043154379,
+  "gap": 0.1480506672931833
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.9059112509632674,
+  "gap": 0.1412404803673255
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "method": "split conformal",
+  "coverage": 0.8965354482404315,
+  "gap": 0.1807405785691329
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "method": "Mondrian on regime",
+  "coverage": 0.899059208836373,
+  "gap": 0.14775292917967367
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "method": "CQR",
+  "coverage": 0.8964615977395325,
+  "gap": 0.0941146035570367
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "method": "CQR per regime",
+  "coverage": 0.8968083740046237,
+  "gap": 0.0913845834024001
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.8972033136398664,
+  "gap": 0.09216931098879405
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "method": "split conformal",
+  "coverage": 0.8887875,
+  "gap": 0.20456217367250976
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "method": "Mondrian on regime",
+  "coverage": 0.8960775,
+  "gap": 0.1472982759876942
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "method": "CQR",
+  "coverage": 0.89737,
+  "gap": 0.10876742925696987
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "method": "CQR per regime",
+  "coverage": 0.89784,
+  "gap": 0.10767458530423266
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.897825,
+  "gap": 0.09872266132457447
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "method": "split conformal",
+  "coverage": 0.892675,
+  "gap": 0.16449551995684947
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "method": "Mondrian on regime",
+  "coverage": 0.89866,
+  "gap": 0.13020120881616842
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "method": "CQR",
+  "coverage": 0.90988,
+  "gap": 0.037595512498878936
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "method": "CQR per regime",
+  "coverage": 0.91035,
+  "gap": 0.034396470206003324
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.9090025,
+  "gap": 0.027230879269573068
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "method": "split conformal",
+  "coverage": 0.905,
+  "gap": 0.20975172255142502
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "method": "Mondrian on regime",
+  "coverage": 0.9025975,
+  "gap": 0.15957847663843883
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "method": "CQR",
+  "coverage": 0.904325,
+  "gap": 0.10752040172649695
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "method": "CQR per regime",
+  "coverage": 0.9043,
+  "gap": 0.1060633475796417
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.9036525,
+  "gap": 0.10108346587358247
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "method": "split conformal",
+  "coverage": 0.8955325,
+  "gap": 0.1917194577103554
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "method": "Mondrian on regime",
+  "coverage": 0.8937975,
+  "gap": 0.15436397770739826
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "method": "CQR",
+  "coverage": 0.8936575,
+  "gap": 0.08000184246986328
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "method": "CQR per regime",
+  "coverage": 0.8937525,
+  "gap": 0.07999884478362818
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "method": "CQR per sensor x regime",
+  "coverage": 0.8940975,
+  "gap": 0.05770379541324683
+ }
+]

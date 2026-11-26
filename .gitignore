@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+
+# raw data, download separately (see README)
+Dataset/
+
+# training scratch files
+predictions_v2/*.log
+predictions_v2/ckpt_*.pt
+
+# files from the submitted draft: the forecaster that produced them was not kept,
+# so they cannot be regenerated from this repo
+predictions/
+results/
+figures/
+models/gru.pt
+models/linear.pt
+
+# private working notes and local environment
+CLAUDE.md
+.claude/
+research_notes/
+reports/
+handoff/
+.venv_xpu/
+
+# later experiments: forecasts are about 800 MB, so only training logs and results are kept
+predictions_stid/
+results_stid/
+models/stid_*.pt
+predictions_stid_gpu/*.npz
+predictions_stid_gpu/*.pt
+predictions_stid_gpu/*.log
+predictions_stid_gpu/*.sh
+predictions_gru_gpu/*.npz
+predictions_gru_gpu/*.log
+results_audit/transition_risk_cqr_K*.json

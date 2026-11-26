@@ -1,0 +1,151 @@
+
+==================== pems04 (n_min=500) ====================
+speed thresholds (matched to FD proportions): cong < 44.2 mph, trans < 58.8 mph
+joint states with own pad: ['free/free', 'free/trans', 'free/cong', 'trans/free', 'trans/trans', 'trans/cong', 'cong/free', 'cong/trans', 'cong/cong']
+fallback to FD parent pad: []
+
+  joint: aggregate cov=0.911 width=10.99; mixture fired in none
+   FD-state cov: free=0.912 trans=0.907 cong=0.907 | width: free=8.6 trans=20.3 cong=48.3
+   state (FD/speed)    n_test    cov  width
+   free/free          874,409  0.912    7.7
+   free/trans          48,772  0.904   22.6
+   free/cong            3,996  0.883   40.2
+   trans/free          47,238  0.910   12.9
+   trans/trans         20,853  0.902   32.3
+   trans/cong           4,371  0.908   42.7
+   cong/free            1,362  0.909   48.3
+   cong/trans           6,367  0.907   37.3
+   cong/cong           32,441  0.907   50.5
+
+  joint+mix(same): aggregate cov=0.912 width=11.30; mixture fired in ['cong/cong', 'cong/trans', 'free/cong', 'trans/cong', 'trans/trans']
+   FD-state cov: free=0.912 trans=0.910 cong=0.913 | width: free=8.7 trans=23.1 cong=50.8
+   state (FD/speed)    n_test    cov  width
+   free/free          874,409  0.912    7.7
+   free/trans          48,772  0.904   22.6
+   free/cong            3,996  0.933   46.3
+   trans/free          47,238  0.910   12.9
+   trans/trans         20,853  0.910   41.9
+   trans/cong           4,371  0.914   43.4
+   cong/free            1,362  0.909   48.3
+   cong/trans           6,367  0.912   43.4
+   cong/cong           32,441  0.913   52.3
+
+  joint+mix(split): aggregate cov=0.911 width=11.10; mixture fired in ['cong/cong', 'cong/trans', 'free/cong', 'trans/cong']
+   FD-state cov: free=0.912 trans=0.908 cong=0.913 | width: free=8.7 trans=20.3 cong=50.9
+   state (FD/speed)    n_test    cov  width
+   free/free          874,409  0.912    7.7
+   free/trans          48,772  0.904   22.6
+   free/cong            3,996  0.888   43.5
+   trans/free          47,238  0.910   12.9
+   trans/trans         20,853  0.902   32.3
+   trans/cong           4,371  0.914   43.4
+   cong/free            1,362  0.909   48.3
+   cong/trans           6,367  0.911   43.7
+   cong/cong           32,441  0.913   52.4
+
+  joint+mix gated: aggregate cov=0.911 width=11.09; mixture fired in ['cong/cong', 'cong/trans']
+   FD-state cov: free=0.912 trans=0.907 cong=0.913 | width: free=8.6 trans=20.3 cong=50.9
+   state (FD/speed)    n_test    cov  width
+   free/free          874,409  0.912    7.7
+   free/trans          48,772  0.904   22.6
+   free/cong            3,996  0.883   40.2
+   trans/free          47,238  0.910   12.9
+   trans/trans         20,853  0.902   32.3
+   trans/cong           4,371  0.908   42.7
+   cong/free            1,362  0.909   48.3
+   cong/trans           6,367  0.911   43.7
+   cong/cong           32,441  0.913   52.4
+
+  joint+rmix gated: aggregate cov=0.911 width=11.10; mixture fired in ['cong/cong', 'cong/trans']
+   FD-state cov: free=0.912 trans=0.907 cong=0.908 | width: free=8.6 trans=20.3 cong=51.1
+   state (FD/speed)    n_test    cov  width
+   free/free          874,409  0.912    7.7
+   free/trans          48,772  0.904   22.6
+   free/cong            3,996  0.883   40.2
+   trans/free          47,238  0.910   12.9
+   trans/trans         20,853  0.902   32.3
+   trans/cong           4,371  0.908   42.7
+   cong/free            1,362  0.909   48.3
+   cong/trans           6,367  0.910   48.6
+   cong/cong           32,441  0.908   51.7
+
+==================== pems08 (n_min=500) ====================
+speed thresholds (matched to FD proportions): cong < 51.0 mph, trans < 61.1 mph
+joint states with own pad: ['free/free', 'free/trans', 'free/cong', 'trans/free', 'trans/trans', 'trans/cong', 'cong/free', 'cong/trans', 'cong/cong']
+fallback to FD parent pad: []
+
+  joint: aggregate cov=0.907 width=9.05; mixture fired in none
+   FD-state cov: free=0.909 trans=0.893 cong=0.893 | width: free=7.1 trans=13.4 cong=35.8
+   state (FD/speed)    n_test    cov  width
+   free/free          466,043  0.910    6.2
+   free/trans          42,910  0.904   14.9
+   free/cong            3,195  0.914   34.8
+   trans/free          41,965  0.894    8.0
+   trans/trans         19,763  0.894   19.8
+   trans/cong           5,218  0.875   32.8
+   cong/free            2,709  0.900   10.8
+   cong/trans           6,017  0.904   18.4
+   cong/cong           17,380  0.888   45.7
+
+  joint+mix(same): aggregate cov=0.900 width=25.46; mixture fired in ['cong/cong', 'cong/free', 'cong/trans', 'free/free']
+   FD-state cov: free=0.900 trans=0.893 cong=0.910 | width: free=26.1 trans=13.4 cong=43.8
+   state (FD/speed)    n_test    cov  width
+   free/free          466,043  0.900   27.1
+   free/trans          42,910  0.904   14.9
+   free/cong            3,195  0.914   34.8
+   trans/free          41,965  0.894    8.0
+   trans/trans         19,763  0.894   19.8
+   trans/cong           5,218  0.875   32.8
+   cong/free            2,709  0.920   35.0
+   cong/trans           6,017  0.931   37.8
+   cong/cong           17,380  0.901   47.2
+
+  joint+mix(split): aggregate cov=0.894 width=26.20; mixture fired in ['cong/cong', 'cong/trans', 'free/cong', 'free/free', 'trans/cong']
+   FD-state cov: free=0.893 trans=0.892 cong=0.922 | width: free=27.0 trans=13.7 cong=41.9
+   state (FD/speed)    n_test    cov  width
+   free/free          466,043  0.892   28.1
+   free/trans          42,910  0.904   14.9
+   free/cong            3,195  0.914   39.1
+   trans/free          41,965  0.894    8.0
+   trans/trans         19,763  0.894   19.8
+   trans/cong           5,218  0.870   35.7
+   cong/free            2,709  0.900   10.8
+   cong/trans           6,017  0.937   36.0
+   cong/cong           17,380  0.920   48.8
+
+  joint+mix gated: aggregate cov=0.908 width=9.31; mixture fired in ['cong/cong', 'cong/trans']
+   FD-state cov: free=0.909 trans=0.893 cong=0.922 | width: free=7.1 trans=13.4 cong=41.9
+   state (FD/speed)    n_test    cov  width
+   free/free          466,043  0.910    6.2
+   free/trans          42,910  0.904   14.9
+   free/cong            3,195  0.914   34.8
+   trans/free          41,965  0.894    8.0
+   trans/trans         19,763  0.894   19.8
+   trans/cong           5,218  0.875   32.8
+   cong/free            2,709  0.900   10.8
+   cong/trans           6,017  0.937   36.0
+   cong/cong           17,380  0.920   48.8
+
+  joint+rmix gated: aggregate cov=0.907 width=9.33; mixture fired in ['cong/cong', 'cong/trans']
+   FD-state cov: free=0.909 trans=0.893 cong=0.913 | width: free=7.1 trans=13.4 cong=42.4
+   state (FD/speed)    n_test    cov  width
+   free/free          466,043  0.910    6.2
+   free/trans          42,910  0.904   14.9
+   free/cong            3,195  0.914   34.8
+   trans/free          41,965  0.894    8.0
+   trans/trans         19,763  0.894   19.8
+   trans/cong           5,218  0.875   32.8
+   cong/free            2,709  0.900   10.8
+   cong/trans           6,017  0.933   37.6
+   cong/cong           17,380  0.908   49.0
+
+
+==== sensitivity of plain joint Mondrian to n_min ====
+  pems04 n_min=  200: cov=0.911 width=10.99
+  pems04 n_min=  500: cov=0.911 width=10.99
+  pems04 n_min= 1000: cov=0.911 width=10.99
+  pems04 n_min= 2000: cov=0.911 width=10.99
+  pems08 n_min=  200: cov=0.907 width=9.05
+  pems08 n_min=  500: cov=0.907 width=9.05
+  pems08 n_min= 1000: cov=0.907 width=9.05
+  pems08 n_min= 2000: cov=0.907 width=9.05

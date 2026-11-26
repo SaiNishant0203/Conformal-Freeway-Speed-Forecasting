@@ -1,0 +1,112 @@
+
+=== PeMS04 GRU, all sensors: 1,039,809 test points; window-regime shares free/trans/cong 0.880 / 0.115 / 0.005; MAE by window regime 1.50 / 10.55 / 15.58
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.917  13.05  27.80 |  0.981 0.462 0.064 |   13.0 127.7
+CQR                          0.908  10.39  18.05 |  0.925 0.772 0.902 |   28.5  80.2
+CQR, per-regime correction   0.907  10.39  18.05 |  0.925 0.773 0.905 |   28.7  80.2
+historical baseline          0.902  13.81  21.52 |  0.925 0.727 0.887 |   27.9  82.0
+
+=== PeMS04 GRU, 30 most congestion-prone sensors: 101,610 test points; window-regime shares free/trans/cong 0.622 / 0.359 / 0.019; MAE by window regime 2.04 / 9.73 / 14.05
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.770  13.05  52.56 |  0.955 0.485 0.061 |   13.0 111.5
+CQR                          0.870  18.36  33.64 |  0.906 0.805 0.903 |   30.0  66.7
+CQR, per-regime correction   0.870  18.41  33.64 |  0.906 0.807 0.905 |   30.1  66.7
+historical baseline          0.899  26.70  35.69 |  0.943 0.821 0.929 |   32.3  54.0
+
+=== PeMS04 STID, all sensors: 1,039,809 test points; window-regime shares free/trans/cong 0.880 / 0.115 / 0.005; MAE by window regime 1.12 / 7.44 / 7.46
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.906   8.01  20.41 |  0.962 0.489 0.597 |    8.0  99.1
+CQR                          0.894   8.07  12.54 |  0.905 0.813 0.909 |   24.3  49.9
+CQR, per-regime correction   0.893   8.13  12.52 |  0.902 0.827 0.930 |   25.0  49.8
+historical baseline          0.902  13.81  21.52 |  0.925 0.727 0.887 |   27.9  82.0
+
+=== PeMS04 STID, 30 most congestion-prone sensors: 101,610 test points; window-regime shares free/trans/cong 0.622 / 0.359 / 0.019; MAE by window regime 1.67 / 7.09 / 4.70
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.749   8.01  41.46 |  0.905 0.484 0.654 |    8.0  91.4
+CQR                          0.879  15.56  23.35 |  0.899 0.842 0.935 |   25.0  42.3
+CQR, per-regime correction   0.883  15.88  23.31 |  0.897 0.855 0.950 |   25.9  42.2
+historical baseline          0.899  26.70  35.69 |  0.943 0.821 0.929 |   32.3  54.0
+
+=== PeMS08 GRU, all sensors: 605,200 test points; window-regime shares free/trans/cong 0.897 / 0.101 / 0.002; MAE by window regime 1.26 / 9.00 / 18.24
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.902   9.11  22.26 |  0.959 0.415 0.006 |    9.1 119.2
+CQR                          0.905   8.05  14.34 |  0.920 0.766 0.873 |   24.1  70.2
+CQR, per-regime correction   0.905   8.11  14.33 |  0.920 0.775 0.877 |   24.7  70.1
+historical baseline          0.902  10.99  17.44 |  0.924 0.713 0.664 |   25.0  73.8
+
+=== PeMS08 GRU, 30 most congestion-prone sensors: 106,800 test points; window-regime shares free/trans/cong 0.691 / 0.303 / 0.006; MAE by window regime 1.98 / 8.85 / 14.32
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.743   9.11  45.80 |  0.897 0.405 0.012 |    9.1 115.5
+CQR                          0.863  14.55  28.27 |  0.895 0.790 0.879 |   25.8  63.4
+CQR, per-regime correction   0.866  14.76  28.25 |  0.894 0.800 0.884 |   26.5  63.4
+historical baseline          0.902  21.36  30.81 |  0.943 0.810 0.828 |   27.8  55.0
+
+=== PeMS08 STID, all sensors: 605,200 test points; window-regime shares free/trans/cong 0.897 / 0.101 / 0.002; MAE by window regime 0.90 / 7.02 / 21.90
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.897   6.19  18.29 |  0.949 0.454 0.229 |    6.2 100.7
+CQR                          0.896   5.81  10.10 |  0.910 0.780 0.648 |   19.4  49.6
+CQR, per-regime correction   0.897   5.95  10.03 |  0.906 0.813 0.854 |   20.9  49.0
+historical baseline          0.902  10.99  17.44 |  0.924 0.713 0.664 |   25.0  73.8
+
+=== PeMS08 STID, 30 most congestion-prone sensors: 106,800 test points; window-regime shares free/trans/cong 0.691 / 0.303 / 0.006; MAE by window regime 1.76 / 6.16 / 10.23
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.728   6.19  35.79 |  0.849 0.456 0.444 |    6.2  82.9
+CQR                          0.878  12.52  19.08 |  0.897 0.835 0.796 |   21.3  38.3
+CQR, per-regime correction   0.887  13.05  18.97 |  0.896 0.867 0.915 |   22.9  38.0
+historical baseline          0.902  21.36  30.81 |  0.943 0.810 0.828 |   27.8  55.0
+
+=== METR-LA GRU, all sensors: 1,209,566 test points; window-regime shares free/trans/cong 0.603 / 0.378 / 0.018; MAE by window regime 2.28 / 9.47 / 14.26
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.885  24.20  49.99 |  0.995 0.732 0.433 |   24.2  87.9
+CQR                          0.894  20.71  34.70 |  0.933 0.836 0.841 |   29.7  64.3
+CQR, per-regime correction   0.895  20.88  34.67 |  0.928 0.844 0.860 |   30.2  64.3
+historical baseline          0.906  21.87  33.78 |  0.947 0.843 0.872 |   29.8  59.4
+
+=== METR-LA GRU, 30 most congestion-prone sensors: 173,406 test points; window-regime shares free/trans/cong 0.197 / 0.746 / 0.057; MAE by window regime 2.54 / 7.78 / 13.38
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.815  24.20  59.76 |  0.993 0.793 0.481 |   24.2  66.9
+CQR                          0.905  30.40  46.05 |  0.938 0.899 0.874 |   32.2  52.2
+CQR, per-regime correction   0.910  31.05  46.21 |  0.936 0.905 0.888 |   33.0  52.5
+historical baseline          0.904  32.22  41.25 |  0.932 0.898 0.877 |   31.1  41.8
+
+=== METR-LA STID, all sensors: 1,209,566 test points; window-regime shares free/trans/cong 0.603 / 0.378 / 0.018; MAE by window regime 1.56 / 6.67 / 8.43
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.891  15.17  39.81 |  0.984 0.750 0.742 |   15.2  73.0
+CQR                          0.907  15.33  22.12 |  0.928 0.876 0.850 |   23.8  38.5
+CQR, per-regime correction   0.908  15.39  22.11 |  0.926 0.880 0.866 |   24.0  38.5
+historical baseline          0.906  21.87  33.78 |  0.947 0.843 0.872 |   29.8  59.4
+
+=== METR-LA STID, 30 most congestion-prone sensors: 173,406 test points; window-regime shares free/trans/cong 0.197 / 0.746 / 0.057; MAE by window regime 2.37 / 5.43 / 6.47
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.832  15.17  49.81 |  0.951 0.804 0.792 |   15.2  54.9
+CQR                          0.895  20.22  28.79 |  0.905 0.897 0.841 |   21.4  31.1
+CQR, per-regime correction   0.900  20.46  28.78 |  0.903 0.903 0.858 |   21.6  31.1
+historical baseline          0.904  32.22  41.25 |  0.932 0.898 0.877 |   31.1  41.8
+
+=== PEMS-BAY GRU, all sensors: 3,384,116 test points; window-regime shares free/trans/cong 0.847 / 0.145 / 0.008; MAE by window regime 1.40 / 10.91 / 17.56
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.910  15.98  32.87 |  0.991 0.488 0.038 |   16.0 119.0
+CQR                          0.906  11.79  19.26 |  0.924 0.797 0.897 |   31.6  72.6
+CQR, per-regime correction   0.906  11.84  19.25 |  0.923 0.805 0.902 |   32.1  72.7
+historical baseline          0.896  13.84  24.95 |  0.927 0.717 0.856 |   28.8  95.9
+
+=== PEMS-BAY GRU, 30 most congestion-prone sensors: 312,374 test points; window-regime shares free/trans/cong 0.641 / 0.340 / 0.019; MAE by window regime 1.78 / 8.25 / 17.96
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.832  15.98  41.25 |  0.980 0.600 0.014 |   16.0  77.3
+CQR                          0.898  17.80  26.27 |  0.915 0.863 0.950 |   30.3  50.1
+CQR, per-regime correction   0.899  17.98  26.32 |  0.913 0.869 0.954 |   30.9  50.3
+historical baseline          0.893  22.28  31.31 |  0.928 0.830 0.866 |   29.4  51.4
+
+=== PEMS-BAY STID, all sensors: 3,384,116 test points; window-regime shares free/trans/cong 0.847 / 0.145 / 0.008; MAE by window regime 1.12 / 7.09 / 9.23
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.899   8.40  22.38 |  0.973 0.497 0.478 |    8.4  89.4
+CQR                          0.892   8.36  12.93 |  0.901 0.840 0.862 |   24.1  45.2
+CQR, per-regime correction   0.892   8.38  12.93 |  0.901 0.843 0.856 |   24.3  45.2
+historical baseline          0.896  13.84  24.95 |  0.927 0.717 0.856 |   28.8  95.9
+
+=== PEMS-BAY STID, 30 most congestion-prone sensors: 312,374 test points; window-regime shares free/trans/cong 0.641 / 0.340 / 0.019; MAE by window regime 1.42 / 5.66 / 4.12
+method                         cov  width   Wink |  cov F cov T cov C |  wid T  Wk T
+split conformal              0.807   8.40  29.74 |  0.944 0.554 0.704 |    8.4  63.7
+CQR                          0.901  12.26  17.45 |  0.917 0.866 0.959 |   20.8  32.7
+CQR, per-regime correction   0.902  12.30  17.45 |  0.917 0.869 0.955 |   20.9  32.7
+historical baseline          0.893  22.28  31.31 |  0.928 0.830 0.866 |   29.4  51.4

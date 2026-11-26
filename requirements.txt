@@ -1,0 +1,6 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+# only needed for code/train_gru.py
+torch

@@ -1,0 +1,112 @@
+
+==================== PeMS04 GRU: 12 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.154   [0.143, 0.165]
+Mondrian, congested coverage                            0.902   [0.893, 0.911]
+CQR, congested coverage                                 0.911   [0.899, 0.920]
+CQR per-regime, congested coverage                      0.913   [0.901, 0.922]
+CQR per-regime minus CQR, congested coverage            0.002   [0.001, 0.003]
+CQR, transition coverage                                0.899   [0.890, 0.906]
+CQR per-regime, transition coverage                     0.902   [0.893, 0.909]
+CQR per-regime, overall coverage                        0.907   [0.898, 0.918]
+CQR per-regime, window-transition coverage (Wang)       0.773   [0.764, 0.781]
+Winkler: Mondrian minus CQR per-regime                  3.541   [3.079, 4.024]
+Winkler: split conformal minus CQR per-regime           9.754   [8.672, 10.861]
+
+==================== PeMS04 STID: 12 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.463   [0.414, 0.501]
+Mondrian, congested coverage                            0.892   [0.866, 0.911]
+CQR, congested coverage                                 0.874   [0.858, 0.887]
+CQR per-regime, congested coverage                      0.895   [0.881, 0.906]
+CQR per-regime minus CQR, congested coverage            0.021   [0.018, 0.025]
+CQR, transition coverage                                0.864   [0.840, 0.883]
+CQR per-regime, transition coverage                     0.892   [0.869, 0.910]
+CQR per-regime, overall coverage                        0.893   [0.882, 0.905]
+CQR per-regime, window-transition coverage (Wang)       0.827   [0.789, 0.855]
+Winkler: Mondrian minus CQR per-regime                  5.086   [4.288, 5.829]
+Winkler: split conformal minus CQR per-regime           7.888   [6.883, 8.873]
+
+==================== PeMS08 GRU: 13 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.114   [0.096, 0.131]
+Mondrian, congested coverage                            0.919   [0.908, 0.928]
+CQR, congested coverage                                 0.918   [0.901, 0.935]
+CQR per-regime, congested coverage                      0.919   [0.902, 0.935]
+CQR per-regime minus CQR, congested coverage            0.001   [0.000, 0.002]
+CQR, transition coverage                                0.877   [0.869, 0.885]
+CQR per-regime, transition coverage                     0.895   [0.888, 0.903]
+CQR per-regime, overall coverage                        0.905   [0.897, 0.913]
+CQR per-regime, window-transition coverage (Wang)       0.775   [0.765, 0.789]
+Winkler: Mondrian minus CQR per-regime                  3.420   [2.856, 3.924]
+Winkler: split conformal minus CQR per-regime           7.933   [6.478, 9.299]
+
+==================== PeMS08 STID: 13 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.272   [0.221, 0.325]
+Mondrian, congested coverage                            0.853   [0.803, 0.914]
+CQR, congested coverage                                 0.789   [0.749, 0.831]
+CQR per-regime, congested coverage                      0.912   [0.878, 0.934]
+CQR per-regime minus CQR, congested coverage            0.123   [0.091, 0.147]
+CQR, transition coverage                                0.827   [0.805, 0.848]
+CQR per-regime, transition coverage                     0.886   [0.872, 0.901]
+CQR per-regime, overall coverage                        0.897   [0.892, 0.902]
+CQR per-regime, window-transition coverage (Wang)       0.813   [0.800, 0.826]
+Winkler: Mondrian minus CQR per-regime                  5.226   [4.289, 6.045]
+Winkler: split conformal minus CQR per-regime           8.261   [6.695, 9.802]
+
+==================== METR-LA GRU: 24 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.481   [0.465, 0.496]
+Mondrian, congested coverage                            0.903   [0.889, 0.913]
+CQR, congested coverage                                 0.884   [0.873, 0.895]
+CQR per-regime, congested coverage                      0.899   [0.889, 0.908]
+CQR per-regime minus CQR, congested coverage            0.015   [0.013, 0.016]
+CQR, transition coverage                                0.876   [0.870, 0.882]
+CQR per-regime, transition coverage                     0.896   [0.890, 0.901]
+CQR per-regime, overall coverage                        0.895   [0.890, 0.900]
+CQR per-regime, window-transition coverage (Wang)       0.844   [0.838, 0.849]
+Winkler: Mondrian minus CQR per-regime                  5.882   [5.294, 6.415]
+Winkler: split conformal minus CQR per-regime          15.314   [14.453, 16.182]
+
+==================== METR-LA STID: 24 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.648   [0.625, 0.671]
+Mondrian, congested coverage                            0.889   [0.875, 0.904]
+CQR, congested coverage                                 0.885   [0.867, 0.904]
+CQR per-regime, congested coverage                      0.901   [0.883, 0.918]
+CQR per-regime minus CQR, congested coverage            0.015   [0.014, 0.017]
+CQR, transition coverage                                0.896   [0.888, 0.903]
+CQR per-regime, transition coverage                     0.904   [0.897, 0.911]
+CQR per-regime, overall coverage                        0.908   [0.904, 0.911]
+CQR per-regime, window-transition coverage (Wang)       0.880   [0.873, 0.886]
+Winkler: Mondrian minus CQR per-regime                 13.381   [12.288, 14.455]
+Winkler: split conformal minus CQR per-regime          17.696   [16.161, 19.335]
+
+==================== PEMS-BAY GRU: 37 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.159   [0.153, 0.165]
+Mondrian, congested coverage                            0.907   [0.896, 0.916]
+CQR, congested coverage                                 0.905   [0.897, 0.914]
+CQR per-regime, congested coverage                      0.908   [0.900, 0.916]
+CQR per-regime minus CQR, congested coverage            0.003   [0.003, 0.003]
+CQR, transition coverage                                0.890   [0.884, 0.896]
+CQR per-regime, transition coverage                     0.906   [0.901, 0.911]
+CQR per-regime, overall coverage                        0.906   [0.899, 0.913]
+CQR per-regime, window-transition coverage (Wang)       0.805   [0.797, 0.813]
+Winkler: Mondrian minus CQR per-regime                  4.717   [4.073, 5.313]
+Winkler: split conformal minus CQR per-regime          13.617   [12.425, 14.702]
+
+==================== PEMS-BAY STID: 37 test days ====================
+quantity                                             estimate   95% interval
+split conformal, congested coverage                     0.427   [0.409, 0.444]
+Mondrian, congested coverage                            0.887   [0.870, 0.902]
+CQR, congested coverage                                 0.899   [0.881, 0.913]
+CQR per-regime, congested coverage                      0.894   [0.876, 0.908]
+CQR per-regime minus CQR, congested coverage           -0.005   [-0.006, -0.005]
+CQR, transition coverage                                0.891   [0.884, 0.898]
+CQR per-regime, transition coverage                     0.897   [0.890, 0.904]
+CQR per-regime, overall coverage                        0.892   [0.888, 0.896]
+CQR per-regime, window-transition coverage (Wang)       0.843   [0.832, 0.851]
+Winkler: Mondrian minus CQR per-regime                  5.684   [4.905, 6.418]
+Winkler: split conformal minus CQR per-regime           9.449   [8.346, 10.547]

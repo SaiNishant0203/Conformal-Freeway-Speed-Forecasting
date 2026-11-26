@@ -1,0 +1,66 @@
+{
+ "settings": {
+  "net": "pems04",
+  "out": "predictions_v2",
+  "H": 12,
+  "kind": "quantile",
+  "epochs": 12,
+  "patience": 2,
+  "min_rel_improve": 0.005,
+  "threads": 2,
+  "batch": 2048,
+  "lr": 0.001,
+  "seed": 0,
+  "history": 12,
+  "hidden": 64,
+  "layers": 1,
+  "optimizer": "Adam",
+  "point_loss": "MSE",
+  "quantile_loss": "pinball (0.05, 0.95)",
+  "speed_mean": 63.470985412597656,
+  "speed_std": 8.108710289001465,
+  "n_train": 2806287,
+  "n_val": 312833,
+  "n_cal": 1039502,
+  "n_test": 1039809,
+  "torch": "2.14.0+cpu"
+ },
+ "epochs": [
+  {
+   "kind": "quantile",
+   "epoch": 1,
+   "val_loss": 0.0974544957280159,
+   "seconds": 302.5
+  },
+  {
+   "kind": "quantile",
+   "epoch": 2,
+   "val_loss": 0.09497150778770447,
+   "seconds": 491.4
+  },
+  {
+   "kind": "quantile",
+   "epoch": 3,
+   "val_loss": 0.09431144595146179,
+   "seconds": 80.7
+  },
+  {
+   "kind": "quantile",
+   "epoch": 4,
+   "val_loss": 0.09322023391723633,
+   "seconds": 190.3
+  },
+  {
+   "kind": "quantile",
+   "epoch": 5,
+   "val_loss": 0.09302684664726257,
+   "seconds": 388.3
+  },
+  {
+   "kind": "quantile",
+   "epoch": 6,
+   "val_loss": 0.09300733357667923,
+   "seconds": 374.4
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+
+==================== pems04: 14/14 configurations ====================
+configuration                    cov  width   Wink |  cov F cov T cov C |   Wk F  Wk T  Wk C
+default                        0.899   8.99  13.91 |  0.898 0.904 0.901 |   11.8  24.0  44.6
+seed 1                         0.899   9.03  13.95 |  0.899 0.904 0.902 |   11.8  24.2  44.8
+seed 2                         0.899   9.06  13.92 |  0.899 0.903 0.899 |   11.8  24.1  44.5
+seed 3                         0.899   9.02  13.90 |  0.898 0.903 0.900 |   11.8  24.2  44.6
+seed 4                         0.899   8.99  13.90 |  0.899 0.905 0.900 |   11.8  24.2  44.7
+100 trees                      0.900   9.24  14.29 |  0.899 0.903 0.902 |   12.1  25.1  45.8
+600 trees                      0.898   8.86  13.77 |  0.898 0.904 0.899 |   11.7  23.7  44.3
+lr 0.05, 600 trees             0.899   8.96  13.88 |  0.898 0.903 0.900 |   11.8  24.0  44.5
+small trees (15 leaves)        0.900   9.32  14.25 |  0.899 0.903 0.902 |   12.1  24.9  45.3
+large trees (63 leaves)        0.898   8.78  13.68 |  0.898 0.904 0.901 |   11.6  23.5  44.1
+fit 30% / conformalize 70%     0.898   9.64  14.52 |  0.897 0.909 0.899 |   12.3  24.8  46.2
+fit 70% / conformalize 30%     0.899   8.90  13.77 |  0.898 0.905 0.897 |   11.6  24.0  44.5
+halves swapped                 0.898   8.92  13.87 |  0.897 0.902 0.905 |   11.7  24.3  45.1
+alternating days               0.898   8.83  13.85 |  0.898 0.901 0.897 |   11.7  24.2  45.0
+Winkler over all configurations: min 13.68  max 14.52   congested coverage: 0.897 to 0.905   transition coverage: 0.901 to 0.909
+baselines on the same test split: FD Mondrian 22.45, CQR (GRU quantiles) 18.05
+worst configuration vs CQR: 19.5% lower Winkler; best: 24.2%
+day by day (12 test days): better than FD Mondrian on 12, better than CQR on 12
+   daily Winkler new:  11.6  10.5  11.8  14.4  16.0  16.4  15.1  10.5  10.1  18.2  15.5  17.8
+   daily Winkler CQR:  13.3  12.1  13.2  21.0  22.0  22.2  19.7  12.6  11.4  23.4  22.2  25.4
+   daily Winkler FD :  17.9  15.6  16.2  25.4  26.5  27.4  24.5  16.1  14.9  29.7  27.0  29.9
+sensor by sensor (307): better than FD Mondrian on 307, better than CQR on 300; median gain vs CQR 21.9%, worst sensor -40.8%
+congested state only, sensors with >= 200 congested test points (70): better than FD Mondrian on 67, better than CQR on 57
+per-sensor coverage, 10th percentile across sensors: 0.858
+
+==================== pems08: 14/14 configurations ====================
+configuration                    cov  width   Wink |  cov F cov T cov C |   Wk F  Wk T  Wk C
+default                        0.901   6.58  11.06 |  0.903 0.891 0.894 |    9.0  16.8  36.8
+seed 1                         0.901   6.62  11.06 |  0.902 0.891 0.895 |    9.0  16.8  37.2
+seed 2                         0.901   6.58  11.07 |  0.903 0.892 0.894 |    9.0  17.0  37.1
+seed 3                         0.902   6.58  11.08 |  0.904 0.891 0.894 |    9.0  16.9  37.4
+seed 4                         0.901   6.59  11.09 |  0.902 0.894 0.893 |    9.0  16.9  37.8
+100 trees                      0.902   6.94  11.56 |  0.903 0.895 0.898 |    9.4  17.9  37.8
+600 trees                      0.901   6.38  10.96 |  0.903 0.888 0.895 |    8.9  16.7  37.0
+lr 0.05, 600 trees             0.901   6.53  11.08 |  0.903 0.893 0.895 |    9.0  16.9  37.2
+small trees (15 leaves)        0.901   6.81  11.39 |  0.903 0.890 0.896 |    9.3  17.4  37.5
+large trees (63 leaves)        0.901   6.37  10.94 |  0.902 0.891 0.894 |    8.8  16.7  37.4
+fit 30% / conformalize 70%     0.907   6.76  11.64 |  0.909 0.905 0.876 |    9.2  18.0  42.6
+fit 70% / conformalize 30%     0.907   6.55  10.92 |  0.910 0.895 0.884 |    8.9  16.8  35.7
+halves swapped                 0.909   6.63  10.94 |  0.911 0.897 0.881 |    8.8  17.3  36.2
+alternating days               0.904   6.48  10.96 |  0.907 0.894 0.875 |    8.8  17.2  36.6
+Winkler over all configurations: min 10.92  max 11.64   congested coverage: 0.875 to 0.898   transition coverage: 0.888 to 0.905
+baselines on the same test split: FD Mondrian 18.51, CQR (GRU quantiles) 14.34
+worst configuration vs CQR: 18.8% lower Winkler; best: 23.8%
+day by day (13 test days): better than FD Mondrian on 13, better than CQR on 13
+   daily Winkler new:  12.1   7.4  10.1  12.7  11.4  11.8  13.4  11.6   7.1   9.9  12.8  11.8  13.4
+   daily Winkler CQR:  14.1   8.9  14.0  16.2  15.5  16.1  17.4  13.7   8.9  13.7  16.4  16.0  17.4
+   daily Winkler FD :  19.3  11.8  16.9  21.0  20.0  20.6  22.1  18.4  11.3  17.1  21.5  20.8  21.7
+sensor by sensor (170): better than FD Mondrian on 169, better than CQR on 163; median gain vs CQR 22.9%, worst sensor -91.3%
+congested state only, sensors with >= 200 congested test points (38): better than FD Mondrian on 34, better than CQR on 28
+per-sensor coverage, 10th percentile across sensors: 0.856

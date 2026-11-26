@@ -1,0 +1,794 @@
+[
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.15365737808739707,
+  "lo": 0.14295944756962006,
+  "hi": 0.16508327008867563,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.9019949335022166,
+  "lo": 0.8930238855813447,
+  "hi": 0.911224020310761,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.9108613046231793,
+  "lo": 0.8990164626776059,
+  "hi": 0.9200751352226622,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.9129987333755542,
+  "lo": 0.9012235980325873,
+  "hi": 0.9220607586246353,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": 0.0021374287523748814,
+  "lo": 0.0014571434237081432,
+  "hi": 0.0028986333343846782,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.8986948213880882,
+  "lo": 0.8896484823054066,
+  "hi": 0.9060598788618329,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.9016743854649092,
+  "lo": 0.8925802928735,
+  "hi": 0.9090531473053757,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.9074051099769285,
+  "lo": 0.8983037425913291,
+  "hi": 0.9176165667457852,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.7733375585836516,
+  "lo": 0.7644336478818349,
+  "hi": 0.7814747607474373,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 3.540966362228531,
+  "lo": 3.079142185875215,
+  "hi": 4.023793705636437,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "gru",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 9.754396068650859,
+  "lo": 8.67193551758213,
+  "hi": 10.860902007111147,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.46263457884737175,
+  "lo": 0.4143163138757693,
+  "hi": 0.5011503793985462,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.8924160861304623,
+  "lo": 0.8658709638977576,
+  "hi": 0.9112819612741986,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.8741291956934769,
+  "lo": 0.8577708519124059,
+  "hi": 0.8867682749131773,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.8950284990500317,
+  "lo": 0.8807681890468144,
+  "hi": 0.9062208007529678,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": 0.020899303356554766,
+  "lo": 0.01764484477654635,
+  "hi": 0.024861171965674733,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.8639440360138615,
+  "lo": 0.8397326298665484,
+  "hi": 0.8833040251622537,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.8917964828189268,
+  "lo": 0.8688987559573826,
+  "hi": 0.9099385722584555,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.8931986547529402,
+  "lo": 0.8823045954364133,
+  "hi": 0.9050516320153129,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.8265423553546708,
+  "lo": 0.7886016725956083,
+  "hi": 0.8550219044623723,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 5.085934162201799,
+  "lo": 4.287619021139728,
+  "hi": 5.829222755045116,
+  "days": 12
+ },
+ {
+  "net": "pems04",
+  "model": "stid",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 7.8879415188264055,
+  "lo": 6.882575354709867,
+  "hi": 8.873193341182045,
+  "days": 12
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.11363636363636363,
+  "lo": 0.09561869645992849,
+  "hi": 0.13143310731521,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.9188311688311688,
+  "lo": 0.9078736069002661,
+  "hi": 0.9278438523886816,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.9177489177489178,
+  "lo": 0.9011134312050393,
+  "hi": 0.9350472493852576,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.9185606060606061,
+  "lo": 0.9023058801378975,
+  "hi": 0.9353239191971178,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": 0.0008116883116883189,
+  "lo": 0.0,
+  "hi": 0.0016213105427137773,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.8770641106034818,
+  "lo": 0.8687533013345248,
+  "hi": 0.8853183602848528,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.8953686285048822,
+  "lo": 0.8882537049177237,
+  "hi": 0.9025012272365364,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.905031394580304,
+  "lo": 0.8970852081829872,
+  "hi": 0.9134490211942382,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.7753421061267352,
+  "lo": 0.7646700024556942,
+  "hi": 0.7887155081918967,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 3.4196405559600933,
+  "lo": 2.8563045261915834,
+  "hi": 3.9241704587368207,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "gru",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 7.932961827318792,
+  "lo": 6.478424068460947,
+  "hi": 9.299300198551848,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.27164502164502163,
+  "lo": 0.22094246364146775,
+  "hi": 0.3245526941925062,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.8530844155844156,
+  "lo": 0.8034328796616197,
+  "hi": 0.9138867826183703,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.7892316017316018,
+  "lo": 0.7487893511853345,
+  "hi": 0.8310553664865784,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.9117965367965368,
+  "lo": 0.8782831320353607,
+  "hi": 0.9344084364578888,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": 0.12256493506493504,
+  "lo": 0.09111679485379647,
+  "hi": 0.14738610722066592,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.827256711158888,
+  "lo": 0.8054954789407979,
+  "hi": 0.8476954535964141,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.8862014392785691,
+  "lo": 0.8719548319320296,
+  "hi": 0.9008282818431638,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.8969431592861864,
+  "lo": 0.8924821350504148,
+  "hi": 0.9016748324913412,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.8126866406326912,
+  "lo": 0.7997185633647221,
+  "hi": 0.8261420153171778,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 5.225955350206769,
+  "lo": 4.288969892556702,
+  "hi": 6.044535719000105,
+  "days": 13
+ },
+ {
+  "net": "pems08",
+  "model": "stid",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 8.260525391744764,
+  "lo": 6.695013885376979,
+  "hi": 9.801599210529794,
+  "days": 13
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.48119984370773344,
+  "lo": 0.46546259934458134,
+  "hi": 0.49578328744710387,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.9025427549517598,
+  "lo": 0.8893262022777874,
+  "hi": 0.9132907343611524,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.8838628234799074,
+  "lo": 0.8733702540792669,
+  "hi": 0.8945400219002392,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.8988308136214721,
+  "lo": 0.889069947759303,
+  "hi": 0.9083698208458905,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": 0.014967990141564691,
+  "lo": 0.01349272172364093,
+  "hi": 0.016340408626566157,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.8761244496339001,
+  "lo": 0.8702158799047064,
+  "hi": 0.8816993641000748,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.8958330292636649,
+  "lo": 0.8902527528690558,
+  "hi": 0.9011074361872354,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.8951599168627425,
+  "lo": 0.890358402493623,
+  "hi": 0.9001052096287947,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.8439472550730152,
+  "lo": 0.8377560483671816,
+  "hi": 0.8494568269332313,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 5.881743697045685,
+  "lo": 5.293896007425157,
+  "hi": 6.4154850371942205,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "gru",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 15.313878571830273,
+  "lo": 14.453159828061674,
+  "hi": 16.182009627413752,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.6484926813140572,
+  "lo": 0.6246116913709036,
+  "hi": 0.6710657880889872,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.8891527155781311,
+  "lo": 0.8745612147840797,
+  "hi": 0.9039802108724905,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.885275465119774,
+  "lo": 0.8668665195896861,
+  "hi": 0.9035107803671896,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.9007393826455472,
+  "lo": 0.882676055785322,
+  "hi": 0.9182462838593427,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": 0.015463917525773252,
+  "lo": 0.014427813272822294,
+  "hi": 0.016573912271217274,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.8957503223138485,
+  "lo": 0.8882759852990186,
+  "hi": 0.9027760330808446,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.9041085893599942,
+  "lo": 0.8966436569245297,
+  "hi": 0.9108083415131486,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.9075222021783019,
+  "lo": 0.9037128211319456,
+  "hi": 0.9111131380354894,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.8799792728441462,
+  "lo": 0.8733536609774047,
+  "hi": 0.8861977405511923,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 13.380526648874977,
+  "lo": 12.287677928697494,
+  "hi": 14.454609384314354,
+  "days": 24
+ },
+ {
+  "net": "metr_la",
+  "model": "stid",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 17.695909024194577,
+  "lo": 16.16060856062976,
+  "hi": 19.334840667416284,
+  "days": 24
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.15919356781498434,
+  "lo": 0.15252651193876002,
+  "hi": 0.1649481392254078,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.9069200192724645,
+  "lo": 0.8963487260881474,
+  "hi": 0.9157153435829313,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.9054143579860274,
+  "lo": 0.8970608529569317,
+  "hi": 0.9137053139668891,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.9083955673331727,
+  "lo": 0.9000418155354535,
+  "hi": 0.9164452795303362,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": 0.002981209347145297,
+  "lo": 0.002569795545404868,
+  "hi": 0.003436355474492,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.8895833567528881,
+  "lo": 0.8841653198091436,
+  "hi": 0.8955117856281842,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.9058196656811718,
+  "lo": 0.900935348290177,
+  "hi": 0.911185373703103,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.9055410630132064,
+  "lo": 0.8990161927342805,
+  "hi": 0.9125054805665967,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.8046117693136199,
+  "lo": 0.797431098797482,
+  "hi": 0.8125341220768897,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 4.716734001939333,
+  "lo": 4.072907770992349,
+  "hi": 5.3127530832061485,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "gru",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 13.617035671120188,
+  "lo": 12.425027968551897,
+  "hi": 14.701959030689068,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "split conformal, congested coverage",
+  "estimate": 0.42747229583232954,
+  "lo": 0.4092263829915379,
+  "hi": 0.44406221638894655,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "Mondrian, congested coverage",
+  "estimate": 0.8873313659359191,
+  "lo": 0.870214722265156,
+  "hi": 0.9016758399081765,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "CQR, congested coverage",
+  "estimate": 0.8991056371958565,
+  "lo": 0.8812465722336635,
+  "hi": 0.9131550855363528,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "CQR per-regime, congested coverage",
+  "estimate": 0.8939412189833775,
+  "lo": 0.875941142835352,
+  "hi": 0.9083531125618131,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "CQR per-regime minus CQR, congested coverage",
+  "estimate": -0.005164418212478927,
+  "lo": -0.0057041859449744,
+  "hi": -0.004687230770160547,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "CQR, transition coverage",
+  "estimate": 0.8913557486575912,
+  "lo": 0.8836901115739371,
+  "hi": 0.89815356818913,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "CQR per-regime, transition coverage",
+  "estimate": 0.8971600511108363,
+  "lo": 0.8896812986991145,
+  "hi": 0.9038850563103529,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "CQR per-regime, overall coverage",
+  "estimate": 0.8918846162483792,
+  "lo": 0.8875475738575707,
+  "hi": 0.8956827677408651,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "CQR per-regime, window-transition coverage (Wang)",
+  "estimate": 0.8425597277979047,
+  "lo": 0.8324848159271641,
+  "hi": 0.8511770142287239,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "Winkler: Mondrian minus CQR per-regime",
+  "estimate": 5.683684015485575,
+  "lo": 4.905400690756535,
+  "hi": 6.418463492267504,
+  "days": 37
+ },
+ {
+  "net": "pems_bay",
+  "model": "stid",
+  "quantity": "Winkler: split conformal minus CQR per-regime",
+  "estimate": 9.448941084364574,
+  "lo": 8.345827986593285,
+  "hi": 10.547253247942265,
+  "days": 37
+ }
+]

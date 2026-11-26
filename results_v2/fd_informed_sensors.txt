@@ -1,0 +1,32 @@
+
+==================== pems08: coverage across the 170 sensors (target 0.90) ====================
+method           min    p10  median    p90    max  share below 0.85
+new            0.760  0.856   0.907  0.943  0.971             0.082
+FD Mondrian    0.529  0.799   0.940  0.986  1.000             0.218
+CQR            0.785  0.841   0.917  0.955  0.991             0.124
+split CP       0.507  0.766   0.948  0.992  1.000             0.235
+
+sensors where the new method loses most to CQR (negative = worse than CQR):
+ sensor  change %  Wink new  Wink CQR  Wink FD  cov new  cov CQR    MAE  cong share     o_c
+    154     -91.3      9.69      5.06     8.45    0.916    0.919   0.97       0.000  0.1409
+     21     -32.5     27.80     20.98    31.40    0.834    0.895   3.91       0.068  0.0848
+    162     -19.0     34.91     29.34    41.22    0.826    0.892   3.77       0.065  0.0799
+    135     -16.0     19.43     16.74    23.31    0.895    0.910   2.56       0.100  0.0952
+    150     -16.0     20.29     17.50    31.19    0.858    0.925   2.87       0.005  0.2585
+sensors worse than CQR: 7 of 170; worse by more than 10%: 5
+
+==================== pems04: coverage across the 307 sensors (target 0.90) ====================
+method           min    p10  median    p90    max  share below 0.85
+new            0.650  0.858   0.901  0.941  0.982             0.081
+FD Mondrian    0.317  0.814   0.924  0.991  1.000             0.150
+CQR            0.781  0.852   0.912  0.952  0.992             0.094
+split CP       0.416  0.809   0.937  0.991  1.000             0.147
+
+sensors where the new method loses most to CQR (negative = worse than CQR):
+ sensor  change %  Wink new  Wink CQR  Wink FD  cov new  cov CQR    MAE  cong share     o_c
+    137     -40.8      7.99      5.67    10.32    0.650    0.968   1.02       0.000  0.0835
+    101     -28.2     38.00     29.64    44.06    0.785    0.870   4.20       0.011  0.0916
+     58     -10.2      8.24      7.47     9.00    0.925    0.921   1.06       0.000  0.1599
+      6      -4.6     48.34     46.21   101.48    0.809    0.781   8.32       0.000  0.2483
+    281      -2.0     13.70     13.43    14.71    0.824    0.886   2.00       0.005  0.1193
+sensors worse than CQR: 7 of 307; worse by more than 10%: 3

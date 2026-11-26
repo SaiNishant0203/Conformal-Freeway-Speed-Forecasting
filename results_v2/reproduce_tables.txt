@@ -1,0 +1,86 @@
+
+==================== pems04 ====================
+n_cal=1,039,502  n_test=1,039,809
+
+Point MAE by FD state (test):
+  free   MAE=  2.00  n=  927,177
+  trans  MAE=  4.91  n=   72,462
+  cong   MAE= 12.58  n=   40,170
+  all    MAE=  2.61
+
+Global split CP: pad=6.52  width=13.05  coverage=0.917
+  free   cov=0.954
+  trans  cov=0.793
+  cong   cov=0.282
+
+FD Mondrian: all cov=0.911 width=11.48
+  free   cov=0.911 width=8.69
+  trans  cov=0.906 width=26.02
+  cong   cov=0.909 width=49.52
+
+--- speed states: MATCHED-to-FD proportions; thresholds (mph) = [44.2 58.8]
+  test class counts free/trans/cong: [923009, 75992, 40808]
+  agreement with FD (diagonal): 0.892
+  crosstab test (rows FD free/trans/cong, cols speed free/trans/cong):
+    free     874,409    48,772     3,996
+    trans     47,238    20,853     4,371
+    cong       1,362     6,367    32,441
+  cal=speed eval=FD    cov free/trans/cong = 0.920 0.842 0.876  shortfall=5.8pp
+  cal=speed eval=speed cov free/trans/cong = 0.913 0.906 0.909  shortfall=0.0pp  agg cov=0.912 width=11.13
+  cal=FD    eval=FD    cov free/trans/cong = 0.911 0.906 0.909  shortfall=0.0pp  agg cov=0.911 width=11.48
+  cal=FD    eval=speed cov free/trans/cong = 0.931 0.723 0.809  shortfall=17.7pp
+
+--- speed states: TERTILES; thresholds (mph) = [63.6 67.3]
+  test class counts free/trans/cong: [359148, 367082, 313579]
+  agreement with FD (diagonal): 0.398
+  crosstab test (rows FD free/trans/cong, cols speed free/trans/cong):
+    free     356,398   348,628   222,151
+    trans      2,607    18,129    51,726
+    cong         143       325    39,702
+  cal=speed eval=FD    cov free/trans/cong = 0.928 0.889 0.644  shortfall=25.6pp
+  cal=speed eval=speed cov free/trans/cong = 0.917 0.913 0.915  shortfall=0.0pp  agg cov=0.915 width=13.84
+  cal=FD    eval=FD    cov free/trans/cong = 0.911 0.906 0.909  shortfall=0.0pp  agg cov=0.911 width=11.48
+  cal=FD    eval=speed cov free/trans/cong = 0.949 0.943 0.829  shortfall=7.1pp
+
+==================== pems08 ====================
+n_cal=605,030  n_test=605,200
+
+Point MAE by FD state (test):
+  free   MAE=  1.54  n=  512,148
+  trans  MAE=  3.38  n=   66,946
+  cong   MAE=  9.24  n=   26,106
+  all    MAE=  2.07
+
+Global split CP: pad=4.56  width=9.11  coverage=0.902
+  free   cov=0.942
+  trans  cov=0.801
+  cong   cov=0.366
+
+FD Mondrian: all cov=0.906 width=9.52
+  free   cov=0.910 width=7.12
+  trans  cov=0.886 width=15.76
+  cong   cov=0.890 width=40.65
+
+--- speed states: MATCHED-to-FD proportions; thresholds (mph) = [51.  61.1]
+  test class counts free/trans/cong: [510717, 68690, 25793]
+  agreement with FD (diagonal): 0.831
+  crosstab test (rows FD free/trans/cong, cols speed free/trans/cong):
+    free     466,043    42,910     3,195
+    trans     41,965    19,763     5,218
+    cong       2,709     6,017    17,380
+  cal=speed eval=FD    cov free/trans/cong = 0.916 0.857 0.843  shortfall=5.7pp
+  cal=speed eval=speed cov free/trans/cong = 0.908 0.901 0.887  shortfall=1.3pp  agg cov=0.906 width=9.17
+  cal=FD    eval=FD    cov free/trans/cong = 0.910 0.886 0.890  shortfall=1.4pp  agg cov=0.906 width=9.52
+  cal=FD    eval=speed cov free/trans/cong = 0.933 0.780 0.712  shortfall=18.8pp
+
+--- speed states: TERTILES; thresholds (mph) = [63.5 66.5]
+  test class counts free/trans/cong: [207055, 206688, 191457]
+  agreement with FD (diagonal): 0.407
+  crosstab test (rows FD free/trans/cong, cols speed free/trans/cong):
+    free     202,528   187,090   122,530
+    trans      4,202    18,929    43,815
+    cong         325       669    25,112
+  cal=speed eval=FD    cov free/trans/cong = 0.924 0.874 0.592  shortfall=30.8pp
+  cal=speed eval=speed cov free/trans/cong = 0.911 0.908 0.891  shortfall=0.9pp  agg cov=0.904 width=9.95
+  cal=FD    eval=FD    cov free/trans/cong = 0.910 0.886 0.890  shortfall=1.4pp  agg cov=0.906 width=9.52
+  cal=FD    eval=speed cov free/trans/cong = 0.934 0.942 0.839  shortfall=6.1pp

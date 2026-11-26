@@ -1,0 +1,42 @@
+forecaster          state    share    MAE  ratio |  measured  mixture   rule
+STID      D4 h=12   free     0.868   1.56   1.00 |     0.932    0.939  0.900
+STID      D4 h=12   trans    0.083   3.10   1.99 |     0.799    0.755  0.686
+STID      D4 h=12   cong     0.049   7.18   4.60 |     0.492    0.456  0.394
+                    per-sensor congested coverage, 67 sensors: corr(predicted, measured) = 0.82, mean abs gap = 0.083
+
+STID      D8 h=12   free     0.840   1.21   1.00 |     0.927    0.935  0.900
+STID      D8 h=12   trans    0.121   2.04   1.68 |     0.828    0.803  0.745
+STID      D8 h=12   cong     0.040   5.57   4.59 |     0.504    0.449  0.394
+                    per-sensor congested coverage, 29 sensors: corr(predicted, measured) = 0.92, mean abs gap = 0.069
+
+retrained D4 h=12   free     0.868   2.18   1.00 |     0.954    0.947  0.900
+retrained D4 h=12   trans    0.083   5.14   2.36 |     0.793    0.712  0.623
+retrained D4 h=12   cong     0.049  13.08   6.01 |     0.282    0.387  0.318
+                    per-sensor congested coverage, 67 sensors: corr(predicted, measured) = 0.93, mean abs gap = 0.183
+
+retrained D8 h=12   free     0.840   1.61   1.00 |     0.942    0.942  0.900
+retrained D8 h=12   trans    0.121   3.13   1.95 |     0.801    0.769  0.694
+retrained D8 h=12   cong     0.040   8.88   5.51 |     0.366    0.404  0.341
+                    per-sensor congested coverage, 29 sensors: corr(predicted, measured) = 0.95, mean abs gap = 0.137
+
+original  D4 h=12   free     0.868   2.26   1.00 |     0.952    0.946  0.900
+original  D4 h=12   trans    0.083   5.29   2.34 |     0.784    0.712  0.626
+original  D4 h=12   cong     0.049  12.69   5.62 |     0.353    0.405  0.336
+                    per-sensor congested coverage, 67 sensors: corr(predicted, measured) = 0.95, mean abs gap = 0.107
+
+original  D8 h=12   free     0.840   1.63   1.00 |     0.942    0.941  0.900
+original  D8 h=12   trans    0.121   3.12   1.91 |     0.804    0.774  0.700
+original  D8 h=12   cong     0.040   8.82   5.41 |     0.373    0.408  0.347
+                    per-sensor congested coverage, 29 sensors: corr(predicted, measured) = 0.96, mean abs gap = 0.140
+
+original  D4 h=6    free     0.868   1.57   1.00 |     0.948    0.946  0.900
+original  D4 h=6    trans    0.083   3.80   2.43 |     0.771    0.701  0.613
+original  D4 h=6    cong     0.049   8.51   5.43 |     0.413    0.416  0.345
+                    per-sensor congested coverage, 67 sensors: corr(predicted, measured) = 0.94, mean abs gap = 0.065
+
+original  D4 h=3    free     0.868   1.23   1.00 |     0.943    0.940  0.900
+original  D4 h=3    trans    0.083   2.60   2.11 |     0.795    0.737  0.664
+original  D4 h=3    cong     0.049   5.57   4.51 |     0.454    0.464  0.400
+                    per-sensor congested coverage, 67 sensors: corr(predicted, measured) = 0.94, mean abs gap = 0.058
+
+transition and congested rows (16): mean abs gap  mixture 0.047   rule 0.091

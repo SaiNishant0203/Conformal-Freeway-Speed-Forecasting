@@ -1,0 +1,67 @@
+{
+ "settings": {
+  "net": "metr_la",
+  "out": "predictions_gru_gpu",
+  "H": 12,
+  "epochs": 12,
+  "patience": 2,
+  "min_rel_improve": 0.005,
+  "batch_steps": 10,
+  "lr": 0.001,
+  "seed": 0,
+  "device": "xpu",
+  "model": "GRU",
+  "hidden": 64,
+  "history": 12
+ },
+ "epochs": [
+  {
+   "kind": "quantile",
+   "epoch": 1,
+   "val_loss": 0.08839919537349682,
+   "seconds": 29.8
+  },
+  {
+   "kind": "quantile",
+   "epoch": 2,
+   "val_loss": 0.08693942672799736,
+   "seconds": 27.9
+  },
+  {
+   "kind": "quantile",
+   "epoch": 3,
+   "val_loss": 0.08566187340590437,
+   "seconds": 27.9
+  },
+  {
+   "kind": "quantile",
+   "epoch": 4,
+   "val_loss": 0.08499683591942302,
+   "seconds": 28.2
+  },
+  {
+   "kind": "quantile",
+   "epoch": 5,
+   "val_loss": 0.08521666222449364,
+   "seconds": 28.5
+  },
+  {
+   "kind": "quantile",
+   "epoch": 6,
+   "val_loss": 0.08415490528263274,
+   "seconds": 28.8
+  },
+  {
+   "kind": "quantile",
+   "epoch": 7,
+   "val_loss": 0.08389893709361486,
+   "seconds": 29.3
+  },
+  {
+   "kind": "quantile",
+   "epoch": 8,
+   "val_loss": 0.08393460435787833,
+   "seconds": 28.5
+  }
+ ]
+}

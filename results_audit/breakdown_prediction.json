@@ -1,0 +1,242 @@
+[
+ {
+  "net": "pems04",
+  "target": "onset",
+  "features": "A speed",
+  "forecast": false,
+  "base": 0.055715473942510176,
+  "auc": 0.9184141569504666,
+  "ap": 0.48904999224442014,
+  "tpr5": 0.6307609362509063
+ },
+ {
+  "net": "pems04",
+  "target": "onset",
+  "features": "A speed",
+  "forecast": true,
+  "base": 0.055715473942510176,
+  "auc": 0.9288522722591521,
+  "ap": 0.5666809287090472,
+  "tpr5": 0.6917771291528008
+ },
+ {
+  "net": "pems04",
+  "target": "onset",
+  "features": "B + occupancy, flow",
+  "forecast": false,
+  "base": 0.055715473942510176,
+  "auc": 0.9272233777944667,
+  "ap": 0.526474560578637,
+  "tpr5": 0.6686125415977244
+ },
+ {
+  "net": "pems04",
+  "target": "onset",
+  "features": "B + occupancy, flow",
+  "forecast": true,
+  "base": 0.055715473942510176,
+  "auc": 0.9343293072544485,
+  "ap": 0.6045329371834656,
+  "tpr5": 0.7081931249883805
+ },
+ {
+  "net": "pems04",
+  "target": "onset",
+  "features": "C + FD",
+  "forecast": false,
+  "base": 0.055715473942510176,
+  "auc": 0.9305412735359577,
+  "ap": 0.5222085213746309,
+  "tpr5": 0.6816635371544367
+ },
+ {
+  "net": "pems04",
+  "target": "onset",
+  "features": "C + FD",
+  "forecast": true,
+  "base": 0.055715473942510176,
+  "auc": 0.9342636173062012,
+  "ap": 0.5865849913569572,
+  "tpr5": 0.7048281247095131
+ },
+ {
+  "net": "pems04",
+  "target": "any",
+  "features": "A speed",
+  "forecast": false,
+  "base": 0.11532310260826747,
+  "auc": 0.9582902023369367,
+  "ap": 0.8424693723392771,
+  "tpr5": 0.8124405824173991
+ },
+ {
+  "net": "pems04",
+  "target": "any",
+  "features": "A speed",
+  "forecast": true,
+  "base": 0.11532310260826747,
+  "auc": 0.96481925494788,
+  "ap": 0.8631789368645819,
+  "tpr5": 0.8487916340043697
+ },
+ {
+  "net": "pems04",
+  "target": "any",
+  "features": "B + occupancy, flow",
+  "forecast": false,
+  "base": 0.11532310260826747,
+  "auc": 0.9620877066694179,
+  "ap": 0.8534772208521284,
+  "tpr5": 0.8263672298480578
+ },
+ {
+  "net": "pems04",
+  "target": "any",
+  "features": "B + occupancy, flow",
+  "forecast": true,
+  "base": 0.11532310260826747,
+  "auc": 0.9667417231310491,
+  "ap": 0.8727056016099703,
+  "tpr5": 0.8542788998782461
+ },
+ {
+  "net": "pems04",
+  "target": "any",
+  "features": "C + FD",
+  "forecast": false,
+  "base": 0.11532310260826747,
+  "auc": 0.9645744579680932,
+  "ap": 0.851894508413547,
+  "tpr5": 0.8376252981303267
+ },
+ {
+  "net": "pems04",
+  "target": "any",
+  "features": "C + FD",
+  "forecast": true,
+  "base": 0.11532310260826747,
+  "auc": 0.967594963611231,
+  "ap": 0.8725107455265343,
+  "tpr5": 0.8567973714495388
+ },
+ {
+  "net": "pems08",
+  "target": "onset",
+  "features": "A speed",
+  "forecast": false,
+  "base": 0.04674876543753246,
+  "auc": 0.9426982442619198,
+  "ap": 0.5565724550187151,
+  "tpr5": 0.7309256609173759
+ },
+ {
+  "net": "pems08",
+  "target": "onset",
+  "features": "A speed",
+  "forecast": true,
+  "base": 0.04674876543753246,
+  "auc": 0.9499901568202069,
+  "ap": 0.6395492812449065,
+  "tpr5": 0.7723130225201477
+ },
+ {
+  "net": "pems08",
+  "target": "onset",
+  "features": "B + occupancy, flow",
+  "forecast": false,
+  "base": 0.04674876543753246,
+  "auc": 0.9478255532902092,
+  "ap": 0.5889362547809286,
+  "tpr5": 0.7610906078180312
+ },
+ {
+  "net": "pems08",
+  "target": "onset",
+  "features": "B + occupancy, flow",
+  "forecast": true,
+  "base": 0.04674876543753246,
+  "auc": 0.9525300669812331,
+  "ap": 0.6273545126158394,
+  "tpr5": 0.7893349401220155
+ },
+ {
+  "net": "pems08",
+  "target": "onset",
+  "features": "C + FD",
+  "forecast": false,
+  "base": 0.04674876543753246,
+  "auc": 0.94817628264371,
+  "ap": 0.5816875403049192,
+  "tpr5": 0.7642916321458161
+ },
+ {
+  "net": "pems08",
+  "target": "onset",
+  "features": "C + FD",
+  "forecast": true,
+  "base": 0.04674876543753246,
+  "auc": 0.954780545655934,
+  "ap": 0.6428105829556751,
+  "tpr5": 0.7983354673495519
+ },
+ {
+  "net": "pems08",
+  "target": "any",
+  "features": "A speed",
+  "forecast": false,
+  "base": 0.10070389953734303,
+  "auc": 0.9742087776639081,
+  "ap": 0.8724266528190967,
+  "tpr5": 0.884422275456962
+ },
+ {
+  "net": "pems08",
+  "target": "any",
+  "features": "A speed",
+  "forecast": true,
+  "base": 0.10070389953734303,
+  "auc": 0.9762906212091909,
+  "ap": 0.8888936087913492,
+  "tpr5": 0.8960063006596003
+ },
+ {
+  "net": "pems08",
+  "target": "any",
+  "features": "B + occupancy, flow",
+  "forecast": false,
+  "base": 0.10070389953734303,
+  "auc": 0.97620982545778,
+  "ap": 0.8853492326846372,
+  "tpr5": 0.8934794736323959
+ },
+ {
+  "net": "pems08",
+  "target": "any",
+  "features": "B + occupancy, flow",
+  "forecast": true,
+  "base": 0.10070389953734303,
+  "auc": 0.9771545201512819,
+  "ap": 0.8937562690262159,
+  "tpr5": 0.9016998654546647
+ },
+ {
+  "net": "pems08",
+  "target": "any",
+  "features": "C + FD",
+  "forecast": false,
+  "base": 0.10070389953734303,
+  "auc": 0.9771549115428764,
+  "ap": 0.8913168158125149,
+  "tpr5": 0.898976142814951
+ },
+ {
+  "net": "pems08",
+  "target": "any",
+  "features": "C + FD",
+  "forecast": true,
+  "base": 0.10070389953734303,
+  "auc": 0.9782102138476352,
+  "ap": 0.8911792203763519,
+  "tpr5": 0.9051783546089981
+ }
+]

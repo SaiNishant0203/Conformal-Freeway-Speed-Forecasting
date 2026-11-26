@@ -1,0 +1,64 @@
+
+==================== PeMS04 GRU ====================
+method                     coverage  typical conditional gap
+split conformal               0.922                    0.179
+Mondrian on regime            0.918                    0.135
+CQR                           0.911                    0.106
+CQR per regime                0.911                    0.105
+CQR per sensor x regime       0.910                    0.106
+
+==================== PeMS04 STID ====================
+method                     coverage  typical conditional gap
+split conformal               0.912                    0.164
+Mondrian on regime            0.905                    0.136
+CQR                           0.895                    0.070
+CQR per regime                0.894                    0.070
+CQR per sensor x regime       0.892                    0.070
+
+==================== PeMS08 GRU ====================
+method                     coverage  typical conditional gap
+split conformal               0.901                    0.206
+Mondrian on regime            0.906                    0.170
+CQR                           0.904                    0.148
+CQR per regime                0.904                    0.148
+CQR per sensor x regime       0.906                    0.141
+
+==================== PeMS08 STID ====================
+method                     coverage  typical conditional gap
+split conformal               0.897                    0.181
+Mondrian on regime            0.899                    0.148
+CQR                           0.896                    0.094
+CQR per regime                0.897                    0.091
+CQR per sensor x regime       0.897                    0.092
+
+==================== METR-LA GRU ====================
+method                     coverage  typical conditional gap
+split conformal               0.889                    0.205
+Mondrian on regime            0.896                    0.147
+CQR                           0.897                    0.109
+CQR per regime                0.898                    0.108
+CQR per sensor x regime       0.898                    0.099
+
+==================== METR-LA STID ====================
+method                     coverage  typical conditional gap
+split conformal               0.893                    0.164
+Mondrian on regime            0.899                    0.130
+CQR                           0.910                    0.038
+CQR per regime                0.910                    0.034
+CQR per sensor x regime       0.909                    0.027
+
+==================== PEMS-BAY GRU ====================
+method                     coverage  typical conditional gap
+split conformal               0.905                    0.210
+Mondrian on regime            0.903                    0.160
+CQR                           0.904                    0.108
+CQR per regime                0.904                    0.106
+CQR per sensor x regime       0.904                    0.101
+
+==================== PEMS-BAY STID ====================
+method                     coverage  typical conditional gap
+split conformal               0.896                    0.192
+Mondrian on regime            0.894                    0.154
+CQR                           0.894                    0.080
+CQR per regime                0.894                    0.080
+CQR per sensor x regime       0.894                    0.058
